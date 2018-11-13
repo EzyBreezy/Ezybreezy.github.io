@@ -1,0 +1,25 @@
+.bob {
+    animation: 10s fadeIn ease forwards infinite;
+    font-size:40px;
+  }
+  body {
+    
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    
+    23.5% {
+      background:blue;
+    }
+    
+    75% {
+      background:purple;
+    }
+    
+    100% {
+      opacity:1;
+    }
+  }
