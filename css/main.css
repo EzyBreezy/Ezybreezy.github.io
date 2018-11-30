@@ -3,36 +3,45 @@ body {
   margin: 0 auto;
   background-color: rgb(90, 90, 90);
 }
-/* .b1 {
+/* .nav-b1 {
 }
-.b2 {
+.nav-b2 {
 
 }
-.b3 {
+.nav-b3 {
 
 }
-.b4 {
+.nav-b4 {
 
 } */
-.greeting {
+/* .main-intro {
+
+} */
+main {
+  max-width: 500px;
+  text-align: center;
+}
+.main-intro-greeting {
   text-align: center;
   font-size: 40px;
   color: rgb(0, 204, 255);
   margin: 10px 10px 0 10px;
 }
-.profilepic {
-  max-width: 10%;
-  border-radius: 50%;
-  background-image: cover;
-}
-.profilepic-con {
+.main-intro-picture-con {
   background: black;
+  border-radius: 50%;
 }
-.title {
+.main-intro-picture {
+  max-width: 250px;
+  border-radius: 40%;
+}
+.main-intro-title {
   text-align: center;
   color: rgb(0, 204, 255);
   margin: 0 10px 10px 10px;
+  top: -100px;
 }
+
 li {
   list-style-type: none;
   color: white;
@@ -81,7 +90,10 @@ footer{
   color: #C63D2D;
 }
 .github {
-  color: #333;
+  color: #333333;
+}
+.freecodecamp {
+  color: #006400
 }
 /* 
 @keyframes fadeIn {
