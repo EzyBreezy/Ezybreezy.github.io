@@ -58,7 +58,7 @@ li {
 }
 
 .main-brand-con {
-  background: black;
+  background: rgb(80, 80, 80);
   border-radius: 5px;
   margin: 0 auto;
 }
@@ -81,18 +81,35 @@ footer{
   display: flex;
   justify-content: center;
 }
-.linkedin {
-  color: #4875B4;
+i {
+  padding: 20px;
 }
-.G {
+.linkedin:hover {
+  color: #4875B4
+}
+.linkedin {
+   color: rgb(0, 204, 255);
+} 
+.G:hover {
   color: #C63D2D;
 }
-.github {
+.G {
+  color: rgb(0, 204, 255)
+}
+.github:hover {
   color: #333333;
 }
-.freecodecamp {
-  color: #006400
+.github {
+  color: rgb(0, 204, 255);
 }
+
+.freecodecamp:hover {
+  color: #006400;
+}
+.freecodecamp {
+  color: rgb(0, 204, 255)
+}
+
 /* 
 @keyframes fadeIn {
   0% {
