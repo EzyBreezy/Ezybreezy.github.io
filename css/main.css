@@ -43,6 +43,7 @@ main {
 }
 .main-intro-title {
   text-align: center;
+  font-size: 30px;
   color: rgb(0, 204, 255);
   margin: 0 10px 10px 10px;
 }
@@ -82,6 +83,7 @@ footer{
   justify-content: center;
 }
 i {
+  font-size: 30px;
   padding: 20px;
 }
 .linkedin:hover {
