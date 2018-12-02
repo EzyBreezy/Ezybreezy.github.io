@@ -1,46 +1,36 @@
-
 body {
   margin: 0 auto;
   background-color: rgb(90, 90, 90);
 }
-/* .nav-b1 {
-}
-.nav-b2 {
 
-}
-.nav-b3 {
-
-}
-.nav-b4 {
-
-} */
-/* .main-intro {
-
-} */
 main {
   max-width: 960px;
   text-align: center;
   margin: 0 auto;
 }
+
 .main-intro-greeting {
   font-size: 40px;
   color: rgb(0, 204, 255);
   margin: 10px 10px 0 10px;
 }
+
 .main-intro-picture-con {
   max-width: 450px;
-  max-height: 450px; 
+  max-height: 450px;
   text-align: center;
   margin: 0 auto;
   background: black;
   border-radius: 50%;
   border: 4px solid rgb(0, 204, 255);
 }
+
 .main-intro-picture {
   max-width: 250px;
   margin: 10px;
   border-radius: 30%;
 }
+
 .main-intro-title {
   text-align: center;
   font-size: 30px;
@@ -52,6 +42,7 @@ li {
   list-style-type: none;
   color: white;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -63,6 +54,7 @@ li {
   border-radius: 5px;
   margin: 0 auto;
 }
+
 .brand {
   color: rgb(0, 204, 255);
   text-align: center;
@@ -71,36 +63,46 @@ li {
   padding: 10px;
   margin: 5px;
 }
+
 a {
   text-decoration: none;
 }
+
 i {
   font-size: 25px;
   padding: 10px;
 }
-footer{
+
+footer {
   display: flex;
   justify-content: center;
 }
+
 i {
   font-size: 30px;
   padding: 20px;
 }
+
 .linkedin:hover {
   color: #4875B4;
 }
+
 .linkedin {
-   color: rgb(0, 204, 255);
-} 
+  color: rgb(0, 204, 255);
+}
+
 .G:hover {
   color: #C63D2D;
 }
+
 .G {
   color: rgb(0, 204, 255)
 }
+
 .github:hover {
   color: #333333;
 }
+
 .github {
   color: rgb(0, 204, 255);
 }
@@ -108,6 +110,7 @@ i {
 .freecodecamp:hover {
   color: #006400;
 }
+
 .freecodecamp {
   color: rgb(0, 204, 255)
 }
