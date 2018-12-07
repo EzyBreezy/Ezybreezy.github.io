@@ -13,7 +13,7 @@ CSS3
 
 ## Authors
 
-* **Ezana Bahta** -  - [EzyBreezy](https://github.com/EzyBreezy)
+* **Ezana Bahta** - [EzyBreezy](https://github.com/EzyBreezy)
 
 ## License
 
