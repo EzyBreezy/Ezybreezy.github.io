@@ -13,69 +13,167 @@
   <script rel="text/javascript" src="js/main.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130235173-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-130235173-1');
-  </script>
-
 </head>
 
 <body>
-  <header>
-    <ul class="nav-bar">
-      <li class="nav-b1">Home</li>
-      <li class="nav-b3">Blog</li>
-      <li class="nav-b4">Contact</li>
-    </ul>
-  </header>
-  <div class="main-con">
-  <main>
-    <div class="main-intro-con">
+  <navbar id="navbar">
+        <h1 id="nav-title"> Ezana Bahta </h1>
+        <ul class="ul-navbar">
+            <li>
+                <a href="#welcome-section">
+                    <div class="nav-link-con">
+                        <i class="fas fa-home"></i>
+                        <h2>Home</h2>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#about-section">
+                    <div class="nav-link-con">
+                        <i class="fas fa-user-circle"></i>
+                        <h2>About</h2>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    <div class="nav-link-con">
+                        <i class="fas fa-archive"></i>
+                        <h2>Projects</h2>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#contact-section">
+                    <div class="nav-link-con">
+                        <i class="fas fa-address-book"></i>
+                        <h2>Contact</h2>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </navbar>
 
-      <h1 class="main-intro-greeting">Hello, I am Ezana Bahta</h1>
-      <div class="main-intro-picture-con">
-        <img class="main-intro-picture" src="https://i.imgur.com/Mx8YgEv.jpg">
-      </div>
-      <h4 class="main-intro-title"> Junior Full Stack Web Developer</h4>
+    <main class="main-content">
+        <section id="welcome-section">
+            <img src="./image/EzanaBlackWhiteProfile.jpg" alt="Ezana's profile picture" class="profile-picture">
+            <h1 class="main-title">Ezana Bahta</h1>
+            <p class="main-description">Web Developer</p>
+            <div>
+                <ul id="ul-profile-link">
+                    <li class="profile-link-li">
+                        <a href="https://github.com/EzyBreezy" target="_blank" class="profile-link">
+                            <i class="fab fa-github " title="My github"></i>
+                        </a>
+                    </li>
+                    <li class="profile-link-li">
+                        <a href="https://www.freecodecamp.org/ezybreezy" target="_blank" id="profile-link" class="profile-link">
+                            <i class="fab fa-free-code-camp" title="My freecodecamp"></i>
+                        </a>
+                    </li>
+                    <li class="profile-link-li">
+                        <a href="https://www.linkedin.com/in/ezana-bahta/" target="_blank" class="profile-link">
+                            <i class="fab fa-linkedin-in " title="My LinkedIn"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    </div>
-    <div class="main-brand-con">
-      <div class="brand-con">
-        <p class="brand">
-          I am a Junior Developer who enjoys working in all levels of
-          creative problem solving. I am a person who believes in dedicatedly
-          refining code to create efficient ways to do things, which result in
-          consistently growing and developing myself to be the best developer I
-          can be.
-        </p>
-      </div>
-    </div>
-    <!-- <h3>Projects</h3>
-    <p>Projects down here</p> -->
-  </main>
+        <section id="about-section">
+            <div class="about-section-con">
+                <h2> A little about me... </h2>
+                <p>
+                    I am Ezana Bahta a Developer from the Washington DC area. I graduated from General Assembly
+                    Bootcamp in
+                    November of 2018.
+                    I'am currently taking what I learned at General Assembly and building projects while taking the
+                    FreeCodeCamp curiculum.
+                </p>
 
-  <footer>
-    <!-- div for tooltip -->
-    <div>
-      <a href="https://www.linkedin.com/in/ezana-bahta/" title="Linkedin Profile">
-        <i class="fab fa-linkedin linkedin"></i>
-      </a>
-    </div>
-    <div>
-      <a href="https://github.com/EzyBreezy" title="github profile">
-        <i class="fab fa-github github"></i>
-      </a>
-    </div>
-    <div>
-      <a href="https://www.freecodecamp.org/ezybreezy" title="Freecodecamp">
-        <i class="fab fa-free-code-camp freecodecamp"></i>
-      </a>
-    </div>
-  </footer>
-  </div>
+                <p>
+                    Prior to becoming a Developer I spent alot of time in the Sales industry.
+                    I most recently worked for Sprint as a manager in the Retail Store where I lead my team to be one
+                    of
+                    the top performing stores.
+                    I performed residential HVAC sales and I have also been a Tax Preparer in the Philadelphia Market.
+                </p>
+
+                <p>
+                    When I am not coding im usually working on cars such as ruitine oil change, brakes, or just a
+                    weekend cleaning or hanging out with friends or tackling a nifty project from <a href="https://www.instructables.com"
+                        target="_blank" rel="noopener noreferrer">instructables</a>. You can probably tell I enjoy DIY
+                    projects. I have also picked up a hobby of building and Flying Drones.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div id="projects-con">
+
+                <div class="project-card-con project-tile">
+                    <h2> Tribute Page </h2>
+                    <img src="./image/Screen Shot 2019-01-19 at 2.59.02 AM.png" class="project-image">
+                    <p> This is a project from FreeCodeCamp Responsive Design. Made a timeline tribute page on Haile Selassie using HTML5 and CSS3. </p>
+                    <div class="project-link-con">
+                        <a href="https://github.com/EzyBreezy/freecodecamp-projects/tree/master/Responsive%20Web%20Design%20Projects/tribute_page">Github</a>
+                        <a href="http://fcc_haile_selassie_tribute.surge.sh/" target="_blank" class="project-tile">Live
+                            Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card-con">
+                    <h2> Vision Board </h2>
+                    <img src="http://via.placeholder.com/350x150" class="project-image">
+                    <p> This is a project that I used Express, Mongoose, Handlebars to render page to users.
+                        I applied full CRUD (Create, Read, Update, Delete).
+                    </p>
+                    <div class="project-link-con">
+                        <a href="https://github.com/EzyBreezy/Vision-Board">Github</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card-con">
+                    <h2> Hangman </h2>
+                    <img src="http://via.placeholder.com/350x150" class="project-image">
+                    <p> This is a project where I applied JavaScript to render to the DOM of the HTML with CSS styling.
+                    </p>
+                    <div class="project-link-con">
+                        <a href="https://github.com/EzyBreezy/Hangman">Github</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card-con">
+                    <h2> Portfolio Site </h2>
+                    <img src="http://via.placeholder.com/350x150" class="project-image">
+                    <p> I created a React portfolio site with components. </p>
+                    <div class="project-link-con">
+                        <a href="https://github.com/EzyBreezy/react-portfolio-website">Github</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <form action="index.php" method="POST" class="contact-form">
+                    <h2> Feel free to contact me!  </h2>
+                    <input type="text" name="name" required placeholder="Name" class="contact-field">
+                    <input type="email" name="email" placeholder="Email" class="contact-field">
+                    <input type="tel" name="phone" placeholder="Your Phone Number" class="contact-field">
+                    <input type="text" name="subject" placeholder="Subject" class="contact-field">
+                    <textarea name="message" required type="text" placeholder="Your Message" class="contact-field"></textarea>
+                    <input type="submit" name="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> FreeCodeCamp Project by <b>Ezana Bahta</b> </p>
+        <img src="image/EBMonoGram.png" alt="ezana bahta brand image" class="footer-brand">
+    </footer>  
 </body>
 
 </html>
