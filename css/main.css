@@ -152,11 +152,12 @@ input {
 
 .about-section-con {
   width: 1000px;
+  line-height: 1.6;
 }
 
 .about-section-con p, .about-section-con h2 {
   padding: 0 35px;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .about-section-con a {
