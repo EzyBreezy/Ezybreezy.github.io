@@ -192,11 +192,12 @@ input {
   border-radius: 5px;
   box-shadow: 0 0 50px black;
   background: rgb(236, 236, 236);
+  line-height: 1.4;
 }
 
 .project-card-con p {
   padding: 10px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .project-link-con {
