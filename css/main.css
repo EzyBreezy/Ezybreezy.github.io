@@ -291,6 +291,17 @@ footer {
   }
 }
 
+@media (min-width: 1281px) and (max-width: 1441px) {
+  .profile-picture  {
+      width: 275px;
+      margin-top: 60px;
+  }
+  .main-title {
+    margin: 10px;
+  }
+
+}
+
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
