@@ -40,7 +40,9 @@ input {
   color: rgb(200, 200, 200);
   display: inline;
 }
-
+#nav-title a{
+  color: rgb(200,200,200);
+}
 #navbar {
   width: 100vw;
   display: flex;
@@ -281,6 +283,9 @@ footer {
   #nav-title {
       display: inline;
   }
+  .home-btn {
+    display: none;
+  }
   #navbar {
       position: fixed;
       top: 0;
@@ -289,17 +294,10 @@ footer {
       bottom: initial;
       font-size: 1rem;
   }
-}
-
-@media (min-width: 1281px) and (max-width: 1441px) {
-  .profile-picture  {
-      width: 275px;
-      margin-top: 60px;
+/*  intro-section  */
+  #welcome-section {
+    min-height: 990px;
   }
-  .main-title {
-    margin: 10px;
-  }
-
 }
 
 /* 
@@ -311,6 +309,9 @@ footer {
   #nav-title {
       display: inline;
   }
+  .home-btn {
+    display: none;
+  }
   #navbar {
       position: fixed;
       top: 0;
@@ -319,6 +320,10 @@ footer {
       bottom: initial;
       font-size: 1rem;
   }
+/*  intro-section  */
+  #welcome-section {
+    min-height: 990px;
+  }  
 }
 
 /* 
@@ -330,6 +335,9 @@ footer {
   #nav-title {
       display: none;
   }
+  .home-btn { 
+    display: none;
+  }
   #navbar {
       position: fixed;
       top: 0;
@@ -337,6 +345,10 @@ footer {
       right: 0;
       bottom: initial;
       font-size: 1.2rem;
+  }
+/*  intro-section  */
+  #welcome-section {
+    min-height: 990px;
   }
 }
 
@@ -349,6 +361,9 @@ footer {
   #nav-title {
       display: inline;
   }
+  .home-btn {
+    display: none;
+  }
   #navbar {
       position: fixed;
       top: 0;
@@ -356,6 +371,10 @@ footer {
       right: 0;
       bottom: initial;
       font-size: 1rem;
+  }
+/*  intro-section  */
+  #welcome-section {
+    min-height: 990px;
   }
 }
 
@@ -376,6 +395,10 @@ footer {
   }
   footer {
       padding: 0 0 100px 0;
+  }
+/*  intro-section  */
+  #welcome-section {
+    min-height: 990px;
   }
 }
 
@@ -419,6 +442,11 @@ footer {
   /* about */
   .about-section-con p, .about-section-con h2 {
       padding: 0 18px;
-      font-size: 1.5rem;
+      font-size: 1rem;
+  }
+  /* Contact */
+  /* Footer */
+  footer {
+    padding-bottom: 60px;
   }
 }
